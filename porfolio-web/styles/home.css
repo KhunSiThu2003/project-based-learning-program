@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 24px 0;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-container a{
+    color:black;
+    text-decoration: none;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    margin-left: 20px;
+}
+
+.nav-action {
+    background-color: #3B52D9;
+    padding: 14px;
+    border-radius: 20px;
+
+    a {
+        color: white;
+        font-weight: 600;
+    }
+}
+
+.hero-section {
+   
+}
+
+.skills-section {
+
+}
+
+.footer {
+
+}
+
