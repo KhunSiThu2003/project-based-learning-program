@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,9 +12,15 @@ body {
     color: #5570F8;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 /* Navbar Styles */
@@ -24,9 +31,6 @@ a{
 }
 
 .navbar-container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,29 +58,78 @@ a{
     border-radius: 30px;
 }
 
+.btn-secondary {
+    background-color: #000000;
+    padding: 14px 24px;
+    color: white;
+    border-radius: 30px;
+}
+
 /* Hero Section Styles */
 
 .hero-container {
-    width: 1200px;
-    height: 800px;
-    margin: 0 auto;
+    height: 100vh;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .hero-left {
-    background-color: aquamarine;
     width: 500px;
     height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.greeting {
+    color: #5570F8;
+    font-weight: bold;
+}
+
+.hero-left h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.hero-left h2 {
+    color: #94A3BC;
+    font-size: 30px;
+}
+
+.hero-left h2 span {
+    color: black;
+}
+
+.bio {
+    color: #94a2b7;
+}
+
+.points {
+    display: flex;
+    gap: 20px;
+}
+
+.points span{
+    background-color: #F1F5F9;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid #e6e6e6;
+    font-weight: 600;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .hero-right {
-    background-color: rgb(20, 17, 181);
     width: 500px;
     height: 500px;
+    background-color: chartreuse;
 }
-
-
-
-
