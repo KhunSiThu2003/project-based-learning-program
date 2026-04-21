@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: #ffffff;
 }
 
 #active-menu {
@@ -112,7 +113,7 @@ a {
     gap: 20px;
 }
 
-.points span{
+.points span {
     background-color: #F1F5F9;
     padding: 10px 15px;
     border-radius: 30px;
@@ -130,6 +131,72 @@ a {
 
 .hero-right {
     width: 500px;
-    height: 500px;
-    background-color: chartreuse;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #F1F5FD;
+}
+
+.hero-image img {
+    width: 100%;
+    border: 3px solid #7263F3;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.info {
+    width: 100%;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tech-focus {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+}
+
+.tech-focus div {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tech-focus div span {
+    padding:15px 20px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.skills-section {
+    padding: 50px 0;
+}
+
+.skills-container h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skill-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-box-container div {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,89 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/home.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../styles/home.css" />
+  </head>
+  <body>
     <!--Nav Bar-->
     <header class="navbar">
+      <div class="container navbar-container">
+        <a href="./home.html" id="logo">Portfolio</a>
 
-        <div class="container navbar-container">
+        <nav class="nav-menu">
+          <ul>
+            <li>
+              <a id="active-menu" href="./home.html">Home</a>
+            </li>
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+            <li>
+              <a href="./projects.html">Projects</a>
+            </li>
+            <li>
+              <a href="./blogs.html">Blogs</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
-            <a href="./home.html" id="logo">Portfolio</a>
-
-            <nav class="nav-menu">
-                <ul>
-                    <li>
-                        <a id="active-menu" href="./home.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="./projects.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="./blogs.html">Blogs</a>
-                    </li>
-                    <li>
-                        <a href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="nav-action">
-                <a href="#" class="btn-primary">Download CV</a>
-            </div>
-
+        <div class="nav-action">
+          <a href="#" class="btn-primary">Download CV</a>
         </div>
-        
-    </header> 
+      </div>
+    </header>
 
     <!--Hero Section-->
     <section id="hero" class="hero-section">
 
-        <div class="container hero-container">
+      <div class="container hero-container">
+        <div class="hero-left">
+          <p class="greeting">Hey there, I am</p>
+          <h1>Khun Si Thu</h1>
+          <h2>Professional <span>Front-end Developer</span></h2>
+          <p class="bio">
+            I design and build fast, elegant, and accessible web experiences
+            with modern front-end technologies.
+          </p>
 
-            <div class="hero-left">
+          <div class="points">
+            <span>Fast UI</span>
+            <span>Responsive</span>
+            <span>Accessible</span>
+          </div>
 
-                <p class="greeting">Hey there, I am</p>
-                <h1>Khun Si Thu</h1>
-                <h2>Professional <span>Front-end Developer</span> </h2>
-                <p class="bio">I design and build fast, elegant, and accessible web experiences with modern front-end technologies.</p>
-                
-                <div class="points">
-                    <span>Fast UI</span>
-                    <span>Responsive</span>
-                    <span>Accessible</span>
-                </div>
+          <div class="hero-action">
+            <a href="" class="btn-primary">Hire Me</a>
+            <a href="" class="btn-secondary">View Projects</a>
+          </div>
+        </div>
 
-                <div class="hero-action">
-                    <a href="" class="btn-primary">Hire Me</a>
-                    <a href="" class="btn-secondary">View Projects</a>
-                </div>
+        <div class="hero-right">
 
+          <div class="hero-image">
+            <img src="../images/hero.png" alt="">
+          </div>
+
+          <div class="info">
+            <span>Open to freelance</span>
+            <span>Yangon, Myanmar</span>
+          </div>
+
+          <div class="tech-focus">
+            <span>Tech focus</span>
+            <div>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
             </div>
-
-            <div class="hero-right">
-
-            </div>
+          </div>
 
         </div>
+
+      </div>
 
     </section>
 
     <!--Skills Section-->
     <section class="skills-section">
 
+      <div class="container skills-container">
+        <h2>My Skills</h2>
+        <div class="skill-box-container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+        </div>
+      </div>
+
     </section>
 
-    <footer class="footer">
-
-    </footer> 
-
-</body>
+    <footer class="footer"></footer>
+  </body>
 </html>
