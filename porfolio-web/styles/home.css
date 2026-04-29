@@ -29,7 +29,7 @@ a {
 .navbar {
     background-color: rgba(255, 255, 255, 0.924);
     padding: 16px;
-    border-bottom:1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
 
     position: sticky;
     top: 0;
@@ -94,6 +94,13 @@ a {
     font-weight: bold;
 }
 
+.greeting i {
+    background-color: #E0E7FF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
 .hero-left h1 {
     font-size: 70px;
     font-weight: bold;
@@ -127,6 +134,11 @@ a {
     color: #4a4a4a;
 }
 
+.points span i {
+    margin-right: 10px;
+    color: #5570F8;
+}
+
 .hero-action {
     display: flex;
     align-items: center;
@@ -157,6 +169,10 @@ a {
     gap: 30px;
 }
 
+.info span i {
+    margin-right: 10px;
+}
+
 .tech-focus {
     background-color: #ffffff;
     display: flex;
@@ -167,6 +183,11 @@ a {
     border-radius: 10px;
 }
 
+.tech-focus .fa-layer-group {
+    margin-right: 10px;
+    color: #5570F8;
+}
+
 .tech-focus div {
     width: 65%;
     display: flex;
@@ -175,9 +196,13 @@ a {
 }
 
 .tech-focus div span {
-    padding: 15px 20px;
-    background-color: rgb(231, 231, 231);
+    padding: 10px 15px;
+    background-color: rgb(240, 247, 255);
     border-radius: 10px;
+}
+
+.tech-focus .fa-brands {
+    font-size: 20px;
 }
 
 .skills-section {
@@ -198,6 +223,10 @@ a {
     align-items: center;
 }
 
+.skill-box-container i {
+    font-size: 26px;
+}
+
 .skill-box-container div {
     width: 250px;
     height: 250px;
@@ -214,9 +243,10 @@ a {
 }
 
 .skill-box-container div span {
-    padding: 25px 30px;
-    background-color: rgb(231, 231, 231);
-    border-radius: 10px;
+    padding: 20px 25px;
+    background-color: #f0f7ff;
+    border-radius: 20px;
+    border: 1px solid #e1efff;
 }
 
 .skill-box-container div p {
@@ -268,7 +298,7 @@ a {
 }
 
 .footer-top-center ul li {
-   padding: 10px;
+    padding: 10px;
 }
 
 .footer-top-center ul li a {
