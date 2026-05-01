@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: #f2f2f2;
+    background-color: #fdfdfd;
 }
 
 #active-menu {
@@ -27,7 +27,7 @@ a {
 /* Navbar Styles */
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.924);
+    background-color: rgba(255, 255, 255, 0.97);
     padding: 16px;
     border-bottom: 1px solid #dbdbdb;
 
@@ -63,11 +63,23 @@ a {
     border-radius: 30px;
 }
 
+.btn-primary:hover {
+    background-color: #3B52D9;
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 20px #3B52D9;
+}
+
 .btn-secondary {
     background-color: #000000;
     padding: 14px 24px;
     color: white;
     border-radius: 30px;
+}
+
+.btn-secondary:hover {
+    background-color: #292929;
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 20px #000000;
 }
 
 /* Hero Section Styles */
@@ -205,16 +217,17 @@ a {
     font-size: 20px;
 }
 
-.skills-section {
-    padding: 50px 0;
-}
-
 /*Skills Section Styles*/
 
 .skills-container h2 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
+}
+
+.skills-section {
+    background-color: white;
+    padding: 50px 0;
 }
 
 .skill-box-container {
@@ -240,6 +253,12 @@ a {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.skill-box-container div:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 2px 20px #dbdbdb;
+    border-color: #483eff;
 }
 
 .skill-box-container div span {
@@ -348,4 +367,11 @@ a {
     padding: 10px 15px;
     background-color: #101524;
     border-radius: 10px;
+}
+
+.footer-bottom ul li a:hover {
+    background-color:#3B52D9;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 20px #3B52D9
 }
